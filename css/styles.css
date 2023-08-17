@@ -577,8 +577,7 @@ address {
 }
 
 /* Footer Form Styles */
-.footer-form {
-  display: flex;
+.footer-form-container {
   gap: 24px;
   margin-top: 24px;
 }
@@ -635,20 +634,6 @@ address {
 
 .footer-svg {
   fill: currentColor;
-}
-
-.footer-paragraph-form {
-  margin-bottom: 16px;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  color: var(--white);
-}
-
-.footer-form-container {
-  display: flex;
-  gap: 24px;
 }
 
 /* Modal Window Styles */
