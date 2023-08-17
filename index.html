@@ -526,31 +526,25 @@
             </li>
           </ul>
         </div>
-        <div class="container footer-flex-container">
-          <div class="footer-form-container">
-            <!-- Paragraph -->
-            <p class="social-media">Subscribe</p>
-            <!-- Form -->
-            <form class="footer-form">
-              <!-- Label for Email Input -->
-              <label class="footer-label" for="email"></label>
-              <!-- Email Input -->
+        <!-- Footer Form -->
+        <div class="footer-form">
+          <form class="subscribe-form" name="subscribe_form" autocomplete="off">
+            <label class="subscribe-text">
+              Subscribe
               <input
+                class="subscribe-input"
                 type="email"
-                id="email"
-                name="email"
-                class="footer-input"
                 placeholder="E-mail"
+                name="input_subscribe"
               />
-              <!-- Subscribe Button -->
-              <button type="submit" class="footer-button">
-                Subscribe
-                <svg class="footer-svg">
-                  <use xlink:href="./images/icons.svg#icon-subscribe"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+            </label>
+            <button class="btn-footer-form" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" widht="24" height="24">
+                <use href="./images/icons.svg#icon-form"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
