@@ -637,6 +637,20 @@ address {
   fill: currentColor;
 }
 
+.footer-paragraph-form {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--white);
+}
+
+.footer-form-container {
+  display: flex;
+  gap: 24px;
+}
+
 /* Modal Window Styles */
 .backdrop {
   position: fixed;
