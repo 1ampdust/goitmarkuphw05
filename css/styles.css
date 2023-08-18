@@ -592,6 +592,7 @@ address {
 
 .form-container {
   display: flex;
+  gap: 24px;
 }
 
 .form-label {
