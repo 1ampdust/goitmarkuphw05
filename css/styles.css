@@ -874,6 +874,7 @@ address {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
   position: absolute;
   left: -24px;
   top: 50%;
