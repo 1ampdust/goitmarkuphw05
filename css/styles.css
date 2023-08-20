@@ -839,14 +839,7 @@ address {
 }
 
 .checkbox-box {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
   margin-bottom: 24px;
-  position: relative;
-  align-items: center;
 }
 
 .checkbox-form {
@@ -867,18 +860,15 @@ address {
 .privat-pol {
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color var(--transition), border var(--transition),
-    fill var(--transition);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  position: absolute;
-  left: -24px;
-  top: 50%;
-  transform: translateY(-50%);
+  transition: background-color var(--transition), border var(--transition),
+    fill var(--transition);
 }
 
 input:checked + label > span {
@@ -888,8 +878,10 @@ input:checked + label > span {
 }
 
 .privacy-policy {
+  margin-left: 4px;
   color: var(--iris);
   text-decoration: underline;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-icon {
